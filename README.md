@@ -1,2 +1,2 @@
 # website
-This is a website demo.
+This is a website demo which used ALTAdmin.
