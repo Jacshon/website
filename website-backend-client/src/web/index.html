@@ -23,6 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           apply the skin class to the body tag so the changes take effect.
     -->
     <link rel="stylesheet" href="css/skins/skin-blue.min.css">
+    <link rel="stylesheet" href="css/skins/skin-purple.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +52,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   |               | sidebar-mini                            |
   |---------------------------------------------------------|
   -->
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-purple sidebar-mini">
     <!-- Main view  -->
     <div class="wrapper">
       <div ui-view></div>
@@ -63,13 +64,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="js/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="js/util.js"></script>
+    <script src="js/file-loader.js"></script>
+
     <!-- AdminLTE App -->
     <script src="js/ALTAdmin.js"></script>
     <!-- angular JS -->
     <script src="js/angular/angular.js"></script>
     <script src="js/angular/angular-animate.js"></script>
     <script src="js/ui-router/angular-ui-router.js"></script>
-    <script src="app/app.js"></script>
+    <!--<script src="app/app.js"></script>-->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.ctrl.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/app.service.js"></script>
+    <script src="app/app.directive.js"></script>
 
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
          Both of these plugins are recommended to enhance the
