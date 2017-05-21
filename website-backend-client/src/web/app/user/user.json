@@ -1,0 +1,57 @@
+{
+  "data": [{
+    "name": "sara",
+    "age": 23,
+    "address": "Miami",
+    "status": "1"
+  }, {
+    "name": "John",
+    "age": 23,
+    "address": "Chicago",
+    "status": "1"
+  }, {
+    "name": "Lisa",
+    "age": 23,
+    "address": "Miami",
+    "status": "1"
+  }, {
+    "name": "Janaka",
+    "age": 23,
+    "address": "Sri Lanka",
+    "status": "1"
+  }, {
+    "name": "Robbort",
+    "age": 23,
+    "address": "Miami",
+    "status": "1"
+  }, {
+    "name": "Lower",
+    "age": 23,
+    "address": "Washington",
+    "status": "1"
+  }, {
+    "name": "Afric",
+    "age": 23,
+    "address": "Washington",
+    "status": "1"
+  }, {
+    "name": "Europe",
+    "age": 23,
+    "address": "New York",
+    "status": "1"
+  }, {
+    "name": "sara",
+    "age": 23,
+    "address": "Seattle",
+    "status": "1"
+  }, {
+    "name": "sara",
+    "age": 23,
+    "address": "Chicago",
+    "status": "1"
+  }],
+  "startRow": 0,
+  "recordsFiltered": 15,
+  "recordsTotal": 15,
+  "status": "SUCCESS"
+}

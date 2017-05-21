@@ -3,6 +3,11 @@
  */
 (function(){
     angular.module('website-backend', [
-        'ui.router'
+        'ui.router',
+        'app.common',
+        'oc.lazyLoad',
+        'ui.bootstrap',
+        'ngAnimate',
+        'toaster'
     ]);
 })();
