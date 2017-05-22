@@ -52,3 +52,20 @@ var WEBSITEURLs = (function () {
         }
     };
 }());
+
+EventManager = (function() {
+    return {
+        addEvent: addEvent
+    };
+
+    function addEvent(currnetScope, event, eventFunction, jquerryElement, selector) {
+        if (selector) {
+            jquerryElement.on(event, selector, eventFunction);
+        } else {
+            jquerryElement.on(event, eventFunction);
+        }
+        currnetScope.$on('$destroy', function() {
+            jquerryElement.off();
+        });
+    }
+}());
