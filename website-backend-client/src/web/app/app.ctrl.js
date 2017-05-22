@@ -4,7 +4,7 @@
 (function () {
     angular.module('website-backend').controller("MainCtrl",MainCtrl);
 
-    MainCtrl.$inject = ['$ocLazyLoad', '$state,', '$scope', '$window'];
+    MainCtrl.$inject = ['$ocLazyLoad', '$state', '$scope', '$window'];
 
     function MainCtrl($ocLazyLoad, $state, $scope, $window) {
         var vm = this;
@@ -21,7 +21,7 @@
             return $ocLazyLoad.load([{
                 serie: true,
                 name: moduleName,
-                files: ICMDBFileLoader.getFiles(moduleName)
+                files: WEBSITELoader.getFiles(moduleName)
             }]).then(function() {
                 $state.go(status);
             }, function(error) {
