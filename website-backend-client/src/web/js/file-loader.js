@@ -5,6 +5,15 @@
  * otherwise not.
  */
 var WEBSITELoader = (function (){
+
+    /**
+     * If some module dependency other module, should be added in dependancies
+     * @type {{}}
+     */
+    this.dependancies = {
+
+    };
+
     this.fileMapping = {
         'app.user' : function (){
             return [

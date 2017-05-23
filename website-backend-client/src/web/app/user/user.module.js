@@ -6,6 +6,6 @@
         'ui.router',
         'oc.lazyLoad',
         'ui.bootstrap',
-        'app.common',
+        'app.common'
     ])
 })();
