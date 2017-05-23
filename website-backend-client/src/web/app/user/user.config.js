@@ -32,7 +32,6 @@
 
     function setURLS() {
         urls = {
-
         };
         WEBSITEURLs.setURLS('app.user', urls);
     }
